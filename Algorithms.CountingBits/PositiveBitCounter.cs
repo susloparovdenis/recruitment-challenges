@@ -4,6 +4,8 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
+using System.Diagnostics.Contracts;
+
 namespace Payvision.CodeChallenge.Algorithms.CountingBits
 {
     using System;
@@ -13,7 +15,17 @@ namespace Payvision.CodeChallenge.Algorithms.CountingBits
     {
         public IEnumerable<int> Count(int input)
         {
-            throw new NotImplementedException();
+            if(input < 0)
+                throw new ArgumentException("The number should be not negative", nameof(input));
+            var ar = new List<int> { 0 };
+            for (var pos = 0; input != 0; pos++)
+            {
+                if ((input & 1) == 1)
+                    ar.Add(pos);
+                input = input >> 1;
+            }
+            ar[0] = ar.Count - 1;
+            return ar;
         }
     }
 }

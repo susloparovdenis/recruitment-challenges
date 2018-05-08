@@ -91,7 +91,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\FakeItEasy.Analyzer.CSharp.4.5.1\analyzers\dotnet\cs\FakeItEasy.Analyzer.CSharp.dll" />

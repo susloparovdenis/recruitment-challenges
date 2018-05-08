@@ -4,6 +4,8 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
+using System.Diagnostics;
+
 namespace CountingBits.Tests
 {
     using System;
@@ -50,5 +52,18 @@ namespace CountingBits.Tests
                 actual: this.bitCounter.Count(161).ToList(),
                 message: "The result is not the expected");
         }
+
+        [TestMethod]
+        public void Time_Execution()
+        {
+            var stopWatch = Stopwatch.StartNew();
+            for (int i = 0; i < 1000000; i++)
+            {
+                this.bitCounter.Count(int.MaxValue).ToList();
+            }
+            Debug.WriteLine($"Execution time - {stopWatch.ElapsedMilliseconds} ms");
+        }
+
+        
     }
 }
