@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 using Payvision.CodeChallenge.Refactoring.FraudDetection.Models;
 
 namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Normalization
@@ -17,14 +18,8 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Normalization
 
         public static void NormalizeEmail(Order order)
         {
-            var aux = order.Email.Split(new[] {'@'}, StringSplitOptions.RemoveEmptyEntries);
-            aux[0] = aux[0].Replace(".", "");
-            var atIndex = aux[0].IndexOf("+", StringComparison.Ordinal);
-            if (atIndex > 0)
-            {
-                aux[0] = aux[0].Remove(atIndex);
-            }
-            order.Email = string.Join("@", aux[0], aux[1]);
+            var regex = new Regex(@"(?:\.|\+.*)(?=.*?@)");
+            order.Email = regex.Replace(order.Email, "");
         }
     }
 }

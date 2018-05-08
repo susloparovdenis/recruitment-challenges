@@ -35,3 +35,29 @@ C:\Users\l.poza\Desktop\New Challenges\C#\Payvision.Challenge\Refactoring.FraudD
 \\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.dll
 \\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.pdb
 \\company\files\MadridFileStorage\09 Developers\Leo\005 - New Challenges\C#\Payvision.Challenge\Refactoring.FraudDetection.Tests\obj\Debug\Refactoring.FraudDetection.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Files\FourLines_MoreThanOneFraudulent.txt
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Files\TwoLinesEmailContainsPlusAndDot_FraudulentSecond.txt
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Files\TwoLines_FraudulentSecond.txt
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Files\ThreeLines_FraudulentSecond.txt
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Files\OneLineFile.txt
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.dll
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.pdb
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.dll
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.dll
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.dll
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.pdb
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.pdb
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.xml
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FluentAssertions.Core.xml
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\obj\Debug\Refactoring.FraudDetection.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\obj\Debug\Refactoring.FraudDetection.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\obj\Debug\Refactoring.FraudDetection.Tests.csproj.CopyComplete
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.dll
+C:\Users\Denis\Source\Repos\recruitment-challenges\Refactoring.FraudDetection.Tests\obj\Debug\Payvision.CodeChallenge.Refactoring.FraudDetection.Tests.pdb
+C:\Users\Denis\Source\repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Autofac.dll
+C:\Users\Denis\Source\repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\Autofac.xml
+C:\Users\Denis\Source\repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FakeItEasy.dll
+C:\Users\Denis\Source\repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FakeItEasy.pdb
+C:\Users\Denis\Source\repos\recruitment-challenges\Refactoring.FraudDetection.Tests\bin\Debug\FakeItEasy.xml
