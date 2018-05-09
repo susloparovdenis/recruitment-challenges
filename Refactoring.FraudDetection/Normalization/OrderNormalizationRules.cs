@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using Payvision.CodeChallenge.Refactoring.FraudDetection.Models;
 
 namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Normalization

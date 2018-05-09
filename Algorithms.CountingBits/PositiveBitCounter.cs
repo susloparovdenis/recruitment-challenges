@@ -17,7 +17,7 @@ namespace Payvision.CodeChallenge.Algorithms.CountingBits
         {
             if(input < 0)
                 throw new ArgumentException("The number should be not negative", nameof(input));
-            var ar = new List<int> { 0 };
+            var ar = new List<int>(32) { 0 };
             for (var pos = 0; input != 0; pos++)
             {
                 if ((input & 1) == 1)
