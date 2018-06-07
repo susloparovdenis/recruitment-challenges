@@ -4,8 +4,6 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-using System.Diagnostics.Contracts;
-
 namespace Payvision.CodeChallenge.Algorithms.CountingBits
 {
     using System;

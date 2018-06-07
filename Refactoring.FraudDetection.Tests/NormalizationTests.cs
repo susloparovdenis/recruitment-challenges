@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FluentAssertions;
+﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Payvision.CodeChallenge.Refactoring.FraudDetection.Models;
 using Payvision.CodeChallenge.Refactoring.FraudDetection.Normalization;
@@ -18,7 +13,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
         {
             var order = new Order() {Email = "bu.gs+asd@bunny.com"};
             OrderNormalizationRules.NormalizeEmail(order);
-            order.Email.ShouldBeEquivalentTo("bugs@bunny.com");
+            order.Email.Should().Be("bugs@bunny.com");
         }
     }
 }

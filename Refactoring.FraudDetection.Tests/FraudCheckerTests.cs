@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FakeItEasy;
-using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Payvision.CodeChallenge.Refactoring.FraudDetection.FraudDetection;
 using Payvision.CodeChallenge.Refactoring.FraudDetection.FraudDetection.Rules;
@@ -19,7 +15,7 @@ namespace Payvision.CodeChallenge.Refactoring.FraudDetection.Tests
         [ExpectedException(typeof(ArgumentNullException))]
         public void Constructor_WithNullArgument_ThrowsException()
         {
-            var fraudCrossChecker = new FraudCrossChecker(null);
+            new FraudCrossChecker(null);
         }
 
         [TestMethod]

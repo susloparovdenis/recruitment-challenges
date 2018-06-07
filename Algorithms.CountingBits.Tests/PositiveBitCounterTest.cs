@@ -4,8 +4,6 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-using System.Diagnostics;
-
 namespace CountingBits.Tests
 {
     using System;
@@ -17,13 +15,13 @@ namespace CountingBits.Tests
     [TestClass]
     public class PositiveBitCounterTest
     {
-        private readonly PositiveBitCounter bitCounter = new PositiveBitCounter();
+        private readonly PositiveBitCounter _bitCounter = new PositiveBitCounter();
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
         public void Count_NegativeValue_ArgumentExceptionExpected()
         {
-            this.bitCounter.Count(-2);
+            _bitCounter.Count(-2);
         }
 
         [TestMethod]
@@ -31,7 +29,7 @@ namespace CountingBits.Tests
         {
             CollectionAssert.AreEqual(
                 expected: new List<int> { 0 },
-                actual: this.bitCounter.Count(0).ToList(),
+                actual: _bitCounter.Count(0).ToList(),
                 message: "The result is not the expected");
         }
 
@@ -40,7 +38,7 @@ namespace CountingBits.Tests
         {
             CollectionAssert.AreEqual(
                 expected: new List<int> { 1, 0 },
-                actual: this.bitCounter.Count(1).ToList(),
+                actual: _bitCounter.Count(1).ToList(),
                 message: "The result is not the expected");
         }
 
@@ -49,21 +47,8 @@ namespace CountingBits.Tests
         {
             CollectionAssert.AreEqual(
                 expected: new List<int> { 3, 0, 5, 7 },
-                actual: this.bitCounter.Count(161).ToList(),
+                actual: _bitCounter.Count(161).ToList(),
                 message: "The result is not the expected");
-        }
-
-        [TestMethod]
-        public void Time_Execution()
-        {
-            var stopWatch = Stopwatch.StartNew();
-            for (int i = 0; i < 1000000; i++)
-            {
-                this.bitCounter.Count(int.MaxValue).ToList();
-            }
-            Debug.WriteLine($"Execution time - {stopWatch.ElapsedMilliseconds} ms");
-        }
-
-        
+        }        
     }
 }
